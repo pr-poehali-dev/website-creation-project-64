@@ -11,10 +11,7 @@ const Second = () => {
           ← Назад на главную
         </Link>
       </div>
-      <div className="absolute bottom-8 left-8">
-        <h1 className="text-6xl font-bold text-black">Вторая страница</h1>
-        <p className="text-2xl text-black mt-2">Добро пожаловать!</p>
-      </div>
+
     </div>
   );
 };
