@@ -1,24 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
-
 import { Link } from "react-router-dom";
 
-const Index = () => {
+const Second = () => {
   return (
     <div className="min-h-screen relative bg-white">
       <div className="absolute top-8 right-8">
         <Link 
-          to="/second" 
+          to="/" 
           className="text-lg text-black hover:underline"
         >
-          Перейти на вторую страницу →
+          ← Назад на главную
         </Link>
       </div>
       <div className="absolute bottom-8 left-8">
-        <h1 className="text-6xl font-bold text-black">hi</h1>
-        <p className="text-2xl text-black mt-2">superosop</p>
+        <h1 className="text-6xl font-bold text-black">Вторая страница</h1>
+        <p className="text-2xl text-black mt-2">Добро пожаловать!</p>
       </div>
     </div>
   );
 };
 
-export default Index;
+export default Second;
